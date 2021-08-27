@@ -1,4 +1,4 @@
-import FormButton from "./FormButton";
+import FormButton from "../generic/FormButton";
 import Modal from "./Modal";
 
 const ModalCard = ({ show, handleClose, Modaltittle, ModalContent }) => {

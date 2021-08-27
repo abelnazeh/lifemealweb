@@ -5,7 +5,7 @@ import FormInput from "./generic/FormInput";
 import FormButton from "./generic/FormButton";
 import { HorizontalLine } from "./generic/imagesSVG";
 import LogoComponent from "./generic/Logo";
-import UsernameModal from "./generic/FormModal";
+import UsernameModal from "./Modals/FormModal";
 import SecurityQuestionsModal from "./generic/SecurityQuestionsModal";
 import WrongSecurityDetailsModal from "./generic/WrongSecurityDetailsModal";
 import SuccessfullPasswordResetModal from "./generic/SuccessfulPasswordResetModal";

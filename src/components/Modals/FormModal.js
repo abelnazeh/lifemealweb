@@ -1,5 +1,5 @@
-import FormButton from "./FormButton";
-import FormInput from "./FormInput";
+import FormButton from "../generic/FormButton";
+import FormInput from "../generic/FormInput";
 import Modal from "./Modal";
 
 const UsernameModal = ({ show, handleClose, email,onChange,errors }) => {
