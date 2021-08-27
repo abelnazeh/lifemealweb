@@ -1,5 +1,5 @@
 import FormButton from ".././generic/FormButton";
-import Modal from ".././generic/Modal";
+import Modal from "./Modal";
 import TermsAndCondtionsComponent from "../generic/TermsAndConditionComponent";
 
 const TermsAndConditionsModal = ({ show, handleClose, acceptTerms }) => {

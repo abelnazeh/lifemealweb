@@ -9,7 +9,7 @@ import { GmailIcon, TwitterIcon, HorizontalLine } from "./generic/imagesSVG";
 import LogoComponent from "./generic/Logo";
 import ModalCard from "./Modals/ModalCard";
 import { PostRequest } from "./services/Requests";
-import WrongSecurityDetailsModal from "./generic/WrongSecurityDetailsModal";
+import WrongSecurityDetailsModal from "./Modals/WrongSecurityDetailsModal";
 import FacebookSignIn from "./signin/FacebookSigin";
 import GoogleSignIn from "./signin/GoogleSignIn";
 import { createStorageItem } from "./services/util";
