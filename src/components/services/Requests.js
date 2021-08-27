@@ -1,7 +1,7 @@
 const { getStorageItem } = require("./util");
 
 const token = getStorageItem('Token');
-exports.PostRequest = async (url, params={}, secure=true, ...others) => {
+export const PostRequest = async (url, params={}, secure=true, ...others) => {
 
   const response = await fetch(`${process.env.REACT_APP_API_URL}${url}`, {
     method: "POST",
@@ -19,7 +19,7 @@ exports.PostRequest = async (url, params={}, secure=true, ...others) => {
   return response.json();
 };
 
-exports.GetRequest = async (url, secure=true) => {
+export const GetRequest = async (url, secure=true) => {
     const response = await fetch(`${process.env.REACT_APP_API_URL}${url}`, {
       method: "GET",
       credentials: 'include',
