@@ -956,8 +956,8 @@ input:focus-visible {
 }
 .right-signup-container {
   padding-top: 46px;
-  padding-right: 10%;
-  padding-left: 10%;
+  padding-right: 5%;
+  padding-left: 5%;
 }
 .right-signup-container .welcome-text {
   text-align: center;
@@ -1834,11 +1834,11 @@ select.classic {
 .support-email{
 color:#ff7a00;
 }
-ol {
+.tc-body ol, .tc-container ol {
   counter-reset: item;
   list-style-type: none;
 }
-li:before {
+.tc-body li:before, .tc-container li:before{
   content: counters(item, ".") ". ";
   counter-increment: item;
 }
@@ -1854,10 +1854,10 @@ li:before {
 .item-list li {
   padding-bottom: 20px;
 }
-li ol {
+.tc-body li ol, .tc-container li ol {
   padding-left: 0;
 }
-ul {
+.tc-body ul, .tc-container ul {
   counter-reset: section;
   list-style-type: none;
 }
@@ -1931,7 +1931,7 @@ width:90%
   overflow: scroll;
 }
 .terms-conditions-container   .tc-content-container{
-  padding:65px ​80px 160p
+  padding:65px ​80px 160px;
 }
 
 .terms-conditions-container * {
@@ -2149,7 +2149,7 @@ color: #CACAD5;
     padding: 30px;
   }
   .form-title p {
-    font-size: 28px;
+    font-size: 24px;
     margin-bottom: 30px;
   }
   .right-dotted-square {
@@ -2190,6 +2190,9 @@ color: #CACAD5;
   .member-name {
     line-height: 54px;
   }
+  .terms-modal-header{
+    padding-top: 13%;
+  }
   .text-container-about-right,
   .text-container-about-left {
     width: 85%;
@@ -2224,7 +2227,12 @@ color: #CACAD5;
     width: 75%;
   }
   .create-account-container {
-    width: 75% !important;
+    width: 85% !important;
+    margin:10% auto 10%;
+
+  }
+  .left-signup-container{
+    width:100%;
   }
   .button-container-forgetpass .col-xs-6 {
     width: 50%;
@@ -2365,6 +2373,9 @@ color: #CACAD5;
   .download-container {
     background-image: none;
   }
+  .welcomeback-text{
+    width:97%;
+  }
   .download-apps-container .left-section {
     margin-top: 0 !important;
     height: 470px;
@@ -2378,108 +2389,19 @@ color: #CACAD5;
   .navbar-button {
     margin-left: -6px;
   }
-}
-
-/* 
-@media screen and (max-width:700px){
-  .contact-container{
-    width: 95%;
+  .progress-text{
+    font-size:10px
   }
-  .row-reverse {
-    flex-direction: column-reverse;
-  }
-  .anticon.anticon-menu svg{
-fill:#66008F!important;
-  }
-  .card-container{
-    height: auto;
-  }
-  .leftcard .card-left{
-    float: none;
-  }
-  .card-right{
-    height: auto!important;
-  }
-  .card-right .card{
-    margin-top: 20px;
-  }
-  .card-left .img-card.card {
-    margin-bottom: 20px;
-  }
-  .card-left{
-    margin-top: 20px;
-    float: none;
-    text-align: center;
-    width: 100%;
-  }
-  .anticon.anticon-menu{
-    margin-top: -5px;
-  }
-
-  .hero-text{
-    width: 90%;
-    margin: 35px auto 30px;
-    
-  }
-  .navbar-light .navbar-toggler{
-    border-color:#66008F;
-  }
-  .responsive-navbar-nav{
-    margin-top: -13px;
-   
-  }
-  .course-description{
-    font-size: 13px;
-  }
-  .navbar-collapse.collapse{
-    z-index: 10000000;
-    text-align: center;background: darkgrey;
-    margin-top: -8px;
-  }
-  .hero-button{
-    height: 40px;
-  }
-  .hero-main {
-
-    height: 260px;
-  }
-  .team-card.card{
-    width: 62%;
-    text-align: center;
-    margin: 40px auto 0;
-  }
-  .team-card.card:last-child{
-    margin-bottom: 20px;
-  }
-  .brand{
-    margin-left: 20px;
+  .tc-header-title{
     font-size: 22px;
-    margin-top: -10px;
   }
-  .academy-hero-main{
-    height: 300px;
+  .tc-content-container{
+    padding: 80px 20px 160px;
+  }
+  .modal-content-scroll .tc-content-container{
+    padding: 30px 10px 0;
+  }
+  .terms-conditions-container .modal-main{
+    padding-bottom: 13%
   }
 }
-
-@media screen and (max-width:430px){
-.copy_right_container{
-  width: 100%;
-}
-.footer-main .comtainer-fluid{
-  width: 96%!important;
-}
-.hero-text{
-  font-size: 18px;
-}
-} */
-
-/* rest of app styles */
-/* 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
