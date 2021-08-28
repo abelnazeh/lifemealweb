@@ -1,5 +1,4 @@
 import React from "react";
-import { ReactComponent as ScheduleMeal } from "../assets/schedule_meal_bg.svg";
 import { ReactComponent as RateCookBg } from "../assets/rate_cook_bg.svg";
 import * as Scroll from 'react-scroll';
 
@@ -176,7 +175,8 @@ constructor(props){
                     </div>
                   </div>
 
-                  <div className="row icons-container">
+                  <div className="row 
+                  ">
                     <div className="col-md-6 col-sm-6 col-xs-6 playstore-icon"></div>
                     <div className="col-md-6 col-sm-6 col-xs-6 appstore-icon"></div>
                   </div>

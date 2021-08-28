@@ -5,17 +5,12 @@ import FormInputTextarea from "./FormInputTextarea";
 import CheckBox from "./CheckBox";
 
 
-const SecurityDetails = ({ prevStep, nextStep, handleChange, showModal, showTC, values,securityQuestions, errors }) => {
+const SecurityDetails = ({ nextStep, handleChange, showTC, values,securityQuestions, errors }) => {
   const Continue = (e) => {
     e.preventDefault();
      nextStep();
   };
 
-  const Previous = (e) => {
-    e.preventDefault();
-    prevStep();
-  };
-//   console.log(values, errors)
   return(
     <div>
            <div className="row">
@@ -76,32 +71,6 @@ const SecurityDetails = ({ prevStep, nextStep, handleChange, showModal, showTC, 
             </div>
           </div>
         </div>
-        {/* <div className="container button-container-signup">
-          <div className="row">
-            <div className="col-md-12 col-sm-12 col-xs-12">
-              <div className="signup-button-container">
-              <div className="row">
-                <div className="col-md-6 col-sm-6 col-xs-6">
-                  <FormButton
-                    label="Prev"
-                    className="form-button"
-                    type="submit"
-                    handleClick={Previous}
-                  />
-                </div>
-                <div className="col-md-6 col-sm-6 col-xs-6">
-                  <FormButton
-                    label="Next"
-                    className="form-button"
-                    type="submit"
-                    handleClick={Continue}
-                  />
-                </div>
-              </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
         </div>
     )
 };

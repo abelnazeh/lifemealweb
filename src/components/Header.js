@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import Button from "./generic/Button";
-import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
+import { Link as ScrollLink} from "react-scroll";
 
 import { MenuOutlined } from "@ant-design/icons";
 import { LeftArrow } from "./generic/imagesSVG";

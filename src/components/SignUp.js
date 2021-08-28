@@ -5,7 +5,7 @@ import PersonalDetails from "./generic/PersonalDetails";
 import BusinessDetails from "./generic/BusinessDetails";
 import SecurityDetails from "./generic/SecurityDetail";
 import { statesList } from "./generic/stateList";
-import { GmailIcon, TwitterIcon, HorizontalLine } from "./generic/imagesSVG";
+import { HorizontalLine } from "./generic/imagesSVG";
 import LogoComponent from "./generic/Logo";
 import ModalCard from "./Modals/ModalCard";
 import { PostRequest } from "./services/Requests";
@@ -77,7 +77,7 @@ class SignUpComponent extends React.Component {
   acceptTerms=(value)=>{
   console.log(value, ' sent ');
     const {user} = this.state; 
-    user.termsAccepted = user.termsAccepted;
+    user.terms = false;
 
     this.setState({user, showTC:false});
   }

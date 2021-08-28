@@ -15,12 +15,7 @@ const BusinessDetails = ({
     e.preventDefault();
     nextStep();
   };
-
-  const Previous = (e) => {
-    e.preventDefault();
-    prevStep();
-  };
-  //   console.log(values, errors)
+ 
   return (
     <div>
       <div className="row">

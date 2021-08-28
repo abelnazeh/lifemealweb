@@ -1,16 +1,11 @@
 import React from "react";
 import { ReactComponent as LocationMarker } from '../assets/location.svg';
-import * as Scroll from 'react-scroll';
-
-const scroll    = Scroll.animateScroll;
 
 class LocationComponent extends React.Component {
    
 
     scrollDown = e => {
-        // scroll.scrollToBottom(e);
         this.scrollToBottom();
-        console.log('ddndkjnd')
     };
     constructor(props){
         super(props);
