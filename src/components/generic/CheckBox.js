@@ -17,7 +17,7 @@ const CheckBox = ({
     <React.Fragment>
       <div className="checkbox-container">
       <label className="checkbox-label">
-            <input
+            <input  
             id={name}
             title={label}
             name={name}

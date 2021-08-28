@@ -70,38 +70,6 @@ constructor(props){
           </div>
           <div className="col-md-12 col-xs-12 col-sm-12 lettuce-left-bg"></div>
         </div>
-        
-
-
-        {/* schedule a meal */}
-        {/* <div className="row schedule-a-meal">
-          <ScheduleMeal height={900} />
-
-          <div className="div-wrapper container">
-            <div className="row">
-              <div className="col-md-6 col-xs-12 col-sm-12 col-lg-6">
-                <div className="mobile-image-schedule-meal" onMouseOver={() =>this.ScrollDownToPosition(3900)}></div>
-              </div>
-              <div className="col-md-6 col-xs-12 col-sm-12 col-lg-6">
-                <div className="feature-description">
-                  <h3 className="text-title-howitworks bg-2">
-                    Place order or schedule a meal
-                  </h3>
-                  <p className="howitworks-text-desc">
-                    View our wide variety a la carte menu, select your desired
-                    meal and place an order or you can schedule/plan for a
-                    future meal.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-12 col-xs-12 col-sm-12 lettuce-left-bg"></div>
-        </div> */}
-        
-
-        {/* lettuce bg row */}
-        {/* <div className="clear"></div> */}
         {/* select ur desired cook */}
         <div className="row select-cook">
           <div className="container">

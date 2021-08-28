@@ -5,13 +5,11 @@ import { refreshTokenInit } from "../services/SignIn";
 function GoogleSignIn(props) {
 
   const LoginSuccess = (response) => {
-    console.log('called');
     refreshTokenInit(response);
     props.callback(response.profileObj);
   };
 
   const LoginFailed = (response) => {
-    console.log(" failed ", response);
     props.callback(response);
   };
   const { signIn } = useGoogleLogin({

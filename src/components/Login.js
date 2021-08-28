@@ -13,7 +13,11 @@ import { GetRequest, PostRequest } from "./services/Requests";
 import GoogleSignIn from "./signin/GoogleSignIn";
 import FacebookSignIn from "./signin/FacebookSigin";
 import GoogleSignOut from "./signin/GoogleSignOut";
-import { createStorageItem, removeStorageItem, getStorageItem } from "./services/util";
+import {
+  createStorageItem,
+  removeStorageItem,
+  getStorageItem,
+} from "./services/util";
 
 const fadeLeftAnimation = keyframes`${fadeIn}`;
 
@@ -129,7 +133,7 @@ class loginComponent extends React.Component {
     } = userData;
     if (!error) {
       this.setState({ userDetails: user, isFacebook: true });
-      PostRequest('/facebook/user/oauth/create_token', user);
+      PostRequest("/facebook/user/oauth/create_token", user);
       // store the data on local storage
       createStorageItem(
         process.env.REACT_APP_LOCAL_STORAGE_USER,

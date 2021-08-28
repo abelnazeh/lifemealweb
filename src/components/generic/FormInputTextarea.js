@@ -35,15 +35,12 @@ const FormInputTextarea = ({
 };
 
 FormInputTextarea.defaultProps = {
-  // type: "text",
   className: "",
 };
 
 FormInputTextarea.propTypes = {
   name: PropTypes.string.isRequired,
-//   type: PropTypes.string,
   placeholder: PropTypes.string.isRequired,
-  // type: PropTypes.oneOf(["text", "number", "password","email"]),
   className: PropTypes.string,
   value: PropTypes.any,
   onChange: PropTypes.func.isRequired,

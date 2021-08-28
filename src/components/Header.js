@@ -11,7 +11,6 @@ class HeaderComponent extends React.Component {
   state = {
     current: "home",
   };
-  //    location = useLocation();
   handleClick = (e) => {
     this.setState({ current: e.key });
   };

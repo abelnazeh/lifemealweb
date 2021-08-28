@@ -1,6 +1,5 @@
 
 const FormButtonBusyContact = (props) => (
-  // console.log(props)
   <button className={props.className}>
     {props.label}
     <div className="spinner-border text-danger" role="status">

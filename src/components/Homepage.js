@@ -1,9 +1,9 @@
 import React from "react";
-import HeaderComponent from './Header'
-import HeroComponent from './HeroSection';
-import LocationComponent from './Location';
-import WhyLifemealComponent from './WhyLifemeal';
-import HowitworksComponent from './HowItWorks';
+import HeaderComponent from "./Header";
+import HeroComponent from "./HeroSection";
+import LocationComponent from "./Location";
+import WhyLifemealComponent from "./WhyLifemeal";
+import HowitworksComponent from "./HowItWorks";
 import FooterComponent from "./Footer";
 
 class HomePageComponent extends React.Component {

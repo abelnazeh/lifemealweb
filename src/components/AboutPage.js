@@ -2,29 +2,6 @@ import React from "react";
 import FooterComponent from "./Footer";
 import { BioArrow, CloseIcon } from "./generic/imagesSVG";
 import HeaderComponent from "./Header";
-  // const team = [
-  //   {
-  //     name: "Michael Ofili",
-  //     designation: "Co-Founder, CEO",
-  //     bio: "Ugochukwu Michael Ofili is the  Co-founder and head of business development  and also the principal visioner and driver of LifeMeal Technologies Limited. His specialities are in Sales, finance and Business Development as well as Business Management. A Graduate of Economics from the University of Ilorin and a Masters Degree holder in Economics from the University of Ibadan. He is currently pursuing a 2nd Master’s in Development Finance from the University of Lagos, Nigeria. He has over 17 years experience in commercial banking and business development. ",
-  //   },
-  //   {
-  //     name: "Jude Ofili",
-  //     designation: "Co-Founder, CTO",
-  //     bio: "Chukwudi Jude Ofili is a Co-founder and CTO of LifeMeal Technologies Limited. He brings Technical Leadership, Product Management and Operations management skills. A Graduate of Electrical Engineering from the University of Ilorin and a master’s degree holder in Web Sciences and Big Data from the University of Liverpool, UK. He is certified in Project Management by the Project Management Institute (PMI). He has over 13 years experience in Information Technology and telecommunications",
-  //   },
-  //   {
-  //     name: "Nazeh Abel",
-  //     designation: "Developer",
-  //     bio: "Nazeh Abel is the Lead Solutions Architect and brings Solution design and architecture skills, Web and business logic development and Software Engineering Leadership to the team. He has over 5 years experience in software development and has successfully launched mobile and web applications. He is an Artificial Intelligence (AI), Data Science and Machine Learning enthusiast. A graduate of Information Technology from NIMS University, Jaipur, India, he is currently pursuing a Masters degree in Artificial Intelligence from the University of Wolverhampton, UK.",
-  //   },
-  //   {
-  //     name: "Francis Aronu",
-  //     designation: "Health Consultant",
-  //     bio: "Francis aronu is a trained Pharmacist with 17years of experience. He is an experienced sales and marketing professional, and mental health advocate. Francis has demonstrated a history of working in the health and telecommunications industries and is a skilled negotiator, marketer and health consultant. A Graduate of the University of Nigeria, Nsukka and Thunderbird School of Global Management, he brings in strong business planning skills, consultancy and engagement with government parastatals and bodies. ",
-  //   },
-  // ];
-
 class AboutPageComponent extends React.Component {
   closeTeamContent = (showid, hideAvatarId, parentMarginClass) => {
     

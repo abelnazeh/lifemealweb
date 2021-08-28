@@ -41,7 +41,6 @@ export default class FacebookLogin extends Component {
         this.facebookLoginHandler(response);
       } else {
         this.FB.login(this.facebookLoginHandler, {
-          // last_name,first_name
           scope: "public_profile",
         });
       }
