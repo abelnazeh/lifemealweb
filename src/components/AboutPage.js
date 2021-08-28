@@ -42,10 +42,10 @@ class AboutPageComponent extends React.Component {
   render() {
     return (
       <div>
-        <div className="row">
-          <div className="col-md-12 col-sm-12 col-lg-12">
+        {/* <div className="row"> */}
+          <div className="col-md-12 col-lg-12">
             <div className="faq-container">
-              <HeaderComponent></HeaderComponent>
+              <HeaderComponent/>
             </div>
           </div>
           <div className="col-md-12 col-sm-12 faq-main-container">
@@ -347,7 +347,7 @@ class AboutPageComponent extends React.Component {
                 </div>
               </div>
             </section>
-          </div>
+          {/* </div> */}
         </div>
         {/* footer section */}
         <div className="">
