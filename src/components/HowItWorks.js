@@ -143,8 +143,7 @@ constructor(props){
                     </div>
                   </div>
 
-                  <div className="row 
-                  ">
+                  <div className="row">
                     <div className="col-md-6 col-sm-6 col-xs-6 playstore-icon"></div>
                     <div className="col-md-6 col-sm-6 col-xs-6 appstore-icon"></div>
                   </div>

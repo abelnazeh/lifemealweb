@@ -519,30 +519,32 @@ a.active {
 }
 .download-description-container {
   margin-top: 8% !important;
+  padding-top: 3%;
 }
 
 .playstore-icon {
   background-image: url(./assets/playstore_icon.svg);
   background-position: 90%;
   background-size: contain;
-  /* width: 150px; */
   height: 41px;
-  /* margin-right: 10px; */
+  display: inline-block;
+  width:50%!important;
   background-repeat: no-repeat;
+  margin-top:30px!important;
 }
 
 .appstore-icon {
   background-image: url(./assets/appstore_icon.svg);
   background-position: 10%;
   background-size: contain;
-  /* width: 150px; */
+  display: inline-block;
+  width:50%!important;
+  margin-top:30px!important;
   height: 41px;
-  /* margin-left: 10px; */
   background-repeat: no-repeat;
 }
 
 .downloading-text-brief {
-  font-family: "Poppins";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -2295,7 +2297,7 @@ color: #CACAD5;
   .scroll-button {
     margin-left: 25%;
     margin-top: 4%;
-    width: 64%;
+    width: 50%;
     display: flex;
     margin: 4% auto 10% !important;
     text-align: center;
@@ -2310,7 +2312,7 @@ color: #CACAD5;
     width: 100% !important;
   }
   .whylifemeal-text {
-    font-size: 45px;
+    font-size: 43px;
   }
   .servicethatfit-container,
   .purelymade-container,
@@ -2361,7 +2363,7 @@ color: #CACAD5;
   }
   .download-section-text {
     line-height: normal;
-    font-size: 25px;
+    font-size: 24px;
   }
   .line-marker-download {
     margin-left: 15px;
